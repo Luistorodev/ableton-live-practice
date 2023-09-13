@@ -1,0 +1,4 @@
+# Git ignore para ignorar fotos ya que las llamaremos de cdn
+
+.png
+.jpg
