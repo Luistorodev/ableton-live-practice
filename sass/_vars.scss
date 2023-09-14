@@ -1,0 +1,60 @@
+// Sistema de color 
+$orange:rgba(255, 118, 77, 1);
+$blue:rgba(0, 0, 255, 1);
+$black:rgba(17, 25, 40, 1);
+$white:rgba(249, 250, 251, 1);
+// Sistema de color
+
+
+// Text styles 
+
+@mixin nav-text{
+    color: $black;
+    font-family: Segoe UI;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem; /* 187.5% */
+}
+
+@mixin nav-text-small{
+    color: $black;
+    font-family: Segoe UI;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem; /* 184.615% */
+}
+
+@mixin text-normal{
+    color: $black;
+    font-family: Segoe UI;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.625rem; /* 168% */
+}
+
+@mixin text-footer{
+    color: $black;
+    font-family: Segoe UI;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem; /* 176.471% */
+}
+
+// Fin de estilos Texto
+
+// Boton Estilo
+@mixin boton{
+    display: flex;
+    padding: 0.6875rem 1.93125rem 0.625rem 1.94375rem;
+    color: $white;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
